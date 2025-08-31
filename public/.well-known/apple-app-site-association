@@ -4,14 +4,22 @@
     "details": [
       {
         "appID": "5S57AX3RKW.com.abdelmajed.jordanntracker",
-        "paths": ["/records/*", "/"] 
+        "paths": [
+          "/records/*",
+          "/*",
+          "/"
+        ]
       }
     ]
   },
   "activitycontinuation": {
-    "apps": ["5S57AX3RKW.com.abdelmajed.jordanntracker"]
+    "apps": [
+      "5S57AX3RKW.com.abdelmajed.jordanntracker"
+    ]
   },
   "webcredentials": {
-    "apps": ["5S57AX3RKW.com.abdelmajed.jordanntracker"]
+    "apps": [
+      "5S57AX3RKW.com.abdelmajed.jordanntracker"
+    ]
   }
 }
