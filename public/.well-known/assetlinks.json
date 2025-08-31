@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.abdelmajed.jordanntracker",
+      "sha256_cert_fingerprints": [
+        "AA:BE:FE:EB:CF:AC:04:E8:C4:78:49:C2:E0:F6:7D:CB:AE:95:28:14:87:AE:47:DD:B3:3F:25:BE:45:36:20:1D"
+      ]
+    }
+  }
+]
