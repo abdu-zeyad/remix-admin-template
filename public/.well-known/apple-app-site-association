@@ -6,6 +6,7 @@
         "appID": "5S57AX3RKW.com.abdelmajed.jordanntracker",
         "paths": [
           "/records/*",
+          "/user-profile/*",
           "/*",
           "/"
         ]
