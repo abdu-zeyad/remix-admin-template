@@ -1,10 +1,16 @@
 [build]
-command = "npm run build"
-publish = "build/client"
+  command = "npm run build"
+  publish = "build/client"
 
 [dev]
-command = "npm run dev"
-framework = "vite"
+  command = "npm run dev"
+  framework = "vite"
 
 [template]
-required-extensions = ["supabase"]
+  required-extensions = ["supabase"]
+
+# Ensure assetlinks.json is served correctly
+[[headers]]
+  for = "/.well-known/assetlinks.json"
+  [headers.values]
+    Content-Type = "application/json"
