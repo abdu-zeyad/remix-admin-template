@@ -9,15 +9,9 @@
 [template]
   required-extensions = ["supabase"]
 
-# Ensure assetlinks.json is served with correct MIME type
 [[headers]]
   for = "/.well-known/assetlinks.json"
   [headers.values]
-    Content-Type = "application/json"
-
-# Prevent any redirects from affecting assetlinks.json
-[[redirects]]
-  from = "/.well-known/*"
-  to = "/.well-known/:splat"
-  status = 200
-  force = true
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Pragma = "no-cache"
+    Expires = "0"
