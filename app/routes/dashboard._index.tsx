@@ -68,9 +68,7 @@ export default function MemberList() {
               <th className='p-6 font-medium text-left text-slate-900'>
                 {members.length} {members.length === 1 ? 'member' : 'members'}
               </th>
-              <th className='p-6 font-medium text-left text-slate-900'>
-                Location
-              </th>
+
               <th className='p-6 font-medium text-left text-slate-900'>
                 Created
               </th>
