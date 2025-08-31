@@ -14,9 +14,9 @@ export async function loader() {
     isSupabaseAvailable = false;
   }
 
-  if (isSupabaseAvailable) {
-    return redirect('/login');
-  }
+  // if (isSupabaseAvailable) {
+  //   return redirect('/login');
+  // }
 
   return Response.json({});
 }
